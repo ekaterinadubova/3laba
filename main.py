@@ -52,7 +52,7 @@ class CreditCalculator:
 
 
 if __name__ == '__main__':
-    credit = CreditCalculator(300000, 12, 6)
+    credit = CreditCalculator(500000, 12, 6)
     credit.calc_ann_credit()
     credit.calc_diff_credit()
     credit.compare()
